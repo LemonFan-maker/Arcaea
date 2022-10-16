@@ -1,0 +1,64 @@
+/* 
+==============================
+Custom style
+==============================
+Also You can override the variables in variable.styl to customize the style
+*/
+.wrapper {
+    background-image: url("/image/bg_light.jpg") !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+}  
+[class="dark-theme"]
+    .wrapper {
+        background-image: url("/image/bg_dark.jpg")!important;
+        background-repeat: no-repeat!important;
+        background-position: center!important;
+        background-size: cover!important;
+        background-attachment: fixed!important;
+}
+[class="dark-theme"]
+    .navbar {
+        background-image: url("/image/top_bar_bg_dark.png") !important;
+        background-repeat: no-repeat !important;
+        background-attachment: fixed !important;
+        transform: scale(1.25);
+}
+.navbar {
+    background-image: url("/image/top_bar_bg.png") !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+    transform: scale(1.25);
+}
+.nickname {
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+    transform: scale(0.75);
+    translate: 120px -10px;
+}
+.intro .avatar {
+    translate: 500px 10px !important;
+    animation: floating 5s infinite;
+}
+@keyframes floating {
+    25% { transform: translateY(-8px); }
+    50%,100% { transform: translate(0px); }
+    75% {transform: translateY(8px); }
+}
+.nickimg {
+    transform:scale(0.6z5);
+    transform: translateY(-30px);
+}
+.separator-wrap {
+    height: 10vh;
+    line-height: 10vh;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: right;
+}
+.separator-symbol {
+    font-size: 5vh;
+    font-weight: 100;
+    color: #808080;
+}

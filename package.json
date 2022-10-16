@@ -1,0 +1,17 @@
+{
+  "name": "hexo-theme-arcaea",
+  "version": "1.0.0",
+  "description": "An elegant,powerful,easy-to-read Hexo theme.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "hexo",
+    "theme",
+    "arcaea",
+    "lemonfan-maker",
+    "hexo-theme"
+  ],
+  "author": "LemonFan-maker"
+}

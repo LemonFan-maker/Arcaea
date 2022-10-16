@@ -1,0 +1,37 @@
+/** Profile **/
+.profile-container
+  justify-content center
+  align-items center
+.intro
+  text-align center
+  .avatar
+    img
+      width: 35%
+      height: 35%
+      display inline-block
+      -webkit-border-radius 10%
+      border-radius 10%
+      margin auto
+      -webkit-transition all ease 0.4s
+      -moz-transition all ease 0.4s
+      -o-transition all ease 0.4s
+      transition all ease 0.4s
+      cursor pointer
+      &:hover
+        position relative
+        -webkit-transform translateY(-1em)
+        -moz-transform translateY(-1em)
+        -ms-transform translateY(-1em)
+        -o-transform translateY(-1em)
+        transform translateY(-1em)
+        cursor pointer
+.nickname
+  font-size 2em
+  font-weight normal
+.links
+  a
+    padding: 0 5px
+    &:hover
+      background-color: transparent
+  .iconfont
+    font-size: 2em
