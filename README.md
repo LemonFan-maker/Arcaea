@@ -1,10 +1,13 @@
 <div align="center">Arcaea</div>
 ## 这是一个可怜的弃坑主题.😢
 
+
 ## ！！！注意！！！
 由于作者(本人)太废，并没有及时和[Lowiro](https://www.lowiro.com/)公司取得联系。
 主题内某些文件(~~可能已经~~)侵犯了[Lowiro](https://www.lowiro.com/)公司的著作权。
 故，此主题应谨慎使用。
+
+搭配[HEXO](https://hexo.io)
 
 ## 特性(技术垃圾，~~仅仅做表面工作~~):
 - [x] 1.自定义样式(扯淡)
@@ -19,9 +22,6 @@
 - [ ] 10.图片懒加载
 - [ ] 11.移动端适配
 - [ ] 12. ,etc?
-
-## 示例
-- [Arcaea](https://LemonFan-maker.github.io/)
 
 ## 食用
 如果您愿意使用这个**半成品**
